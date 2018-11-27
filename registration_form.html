@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head><title>
+Register
+</title>
+<style>
+    
+    </style>
+</head>
+<body style="background-clip: powder blue" style="background-color: lightskyblue">
+ 
+<h1 style="color: indianred"><i><center>Registration Form</center></i></h1>
+                <form style="width: 100%">
+                    <center>
+                    <fieldset style="width: 80%">
+            <table style="width: 100%">
+           <tr>
+               <td><p>First Name:</td><td><input type="text" required maxlength="25" name="first_name" 
+                required pattern="[a-zA-Z]*" placeholder="Enter your First Name"></p><br></td></tr> 
+                <tr>
+                        <td><p>Last Name:</td><td><input type="text" required maxlength="25" name="last_name" 
+                required pattern="[a-zA-Z]*" placeholder="Enter your Last Name"></p><br></td></tr> 
+                <tr>
+                        <td><p>Address:</td><td><input type="text area" size="75" required maxlength="50" name="" 
+                placeholder="Enter your Address"></p><br></td></tr> 
+                <tr>
+                        <td><p>Emailid:</td><td><input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                 placeholder="Enter your email"></p><br></td></tr> 
+                 <tr>
+                        <td><p>State:</td><td><select required>
+                <option value="">None</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                </select>
+            </p><br></td></tr> 
+            <tr>
+                    <td><p>City:</td><td><select required>
+                    <option value="">None</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                  </select></p><br></td></tr> 
+                  <tr>
+                        <td><p>University Branch Name:</td><td><input type="text" required maxlength="25" 
+                name="first_name" required pattern="[a-zA-Z]*" name="" placeholder="Enter your University"></p><br></td></tr>
+                <tr>
+                        <td><p>Phone Number:</td><td><input type="text" required pattern="[0-9]{10}" 
+                placeholder="Enter your phone number"></p><br></td></tr> 
+                <tr>
+                        <td><p>Enrolled Courses:</td><td><select required>
+                    <option value="">None</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                        <option value="ME">ME</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="EC">EC</option>
+                        <option value="PHARMACY">PHARMACY</option>
+                    </select></p><br></td></tr> 
+                    <tr>
+                            <td><p>Date of test:</td><td><input class="datepicker" type="date" name="date" value="" /></p><br></td></tr> 
+                            <tr>
+                                    <td><p>Written Test Marks:</td><td><input type="text" name="" 
+                                        required min="50" required max="100" placeholder="Enter your Marks"></p><br></td></tr> 
+            <tr><td><input type="submit" value="Submit" style="text-align: center"></td></tr>
+            </table>
+        </fieldset>
+        </center>
+    </form>
+</body>
+</html>
