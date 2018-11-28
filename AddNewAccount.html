@@ -1,0 +1,118 @@
+<html>
+    <head>
+<style>
+     h1{
+            margin-left: 800px;
+            margin-right: 50px;
+            font-size: 60px;    
+            text-align: center;
+        }
+        img{
+            position: absolute;
+        }
+        a{
+            padding: 20px;
+            font-size: 24px;
+        }
+        .section
+        {
+            background-color: sandybrown;
+            position: absolute;
+            top: 200px;
+            height: 50px;
+            width: 1420px;
+        }
+.section3
+{
+    background-color: turquoise;
+    width: 1420px;
+    height: 90px;
+    position: absolute;
+    top: 250px;
+}
+
+h2{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+form{ 
+    margin-top: 300px;
+
+}
+footer{
+            float: none;
+            position: absolute;
+           
+            background-color: tomato;
+            height: 130px;
+            width: 1420px;
+            margin-bottom: 10px;
+            text-align: center;
+           
+        }
+        label
+        {
+            font-weight: bold;
+        }
+</style>
+    </head>
+    </html>
+    <body style="background-image:url(bg.jpg)">
+            <img src="Idfc.jpg">
+            <h1>IDFC BANK</h1>
+            <div class="section">
+                <b><a href="AddNewAccount.html">Add account</a></b>
+                <b><a href="searchAccount.html">search account</a></b>
+                <b><a href="viewaccount.html">view account</a></b>
+                <b><a href="ViewAllCustomers.html">view customers</a></b>
+                <b><a href="UpdateCustomerForm.html">Update customer Form</a></b>
+                <b><a href="DepositForm.html">Deposit Form</a></b>
+                <b><a href="FundTransfer.html">Fund Transfer</a></b>
+            </div>
+        <div class="section3">
+            <h2>
+                    A few details and we will do the rest
+            </h2>
+        </div>
+        <form style="width: 100%">
+                <center>
+                <fieldset style="width: 80%">
+        <table style="width: 100%">
+       <tr>
+           <td><p><label>Account Holder Name:</label></td><td><input type="text" required maxlength="25" name="Account Holder Name" 
+            required pattern="[a-zA-Z]*" placeholder="Enter your Name"></p><br></td></tr> 
+    
+            <tr>
+                    <td><p><label>Emailid:</label></td><td><input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+             placeholder="Enter your email"></p><br></td></tr> 
+             <tr>
+                    <td><p><label>Date of Birth:</label></td><td><input class="datepicker" type="date" name="date" value="" /></p><br></td></tr> 
+             <tr>
+                    <td><p><label>Phone Number:</label></td><td><input type="text" required pattern="[0-9]{10}" 
+            placeholder="Enter your phone number"></p><br></td></tr> 
+            <tr>
+          
+                            <td><p><label>Account Type:</label></td><td><select required>
+                            <option value="">None</option>
+                            <option value="Current">Current</option>
+                            <option value="Savings">Savings</option>
+                          </select></p><br></td></tr> 
+                          <form action="">
+                         <tr>
+                             <p><td><label><input type="radio" name="Account" value="Salarised">Salarised</label></td></tr> 
+                             <tr>
+                                    <td><label><input type="radio" name="Account" value="Not Salarised">Not Salarised</label></td></tr></p> 
+                                </form>
+
+             </table>
+             </fieldset>
+            </center>
+            </form>
+            <footer>
+                    <p>For More Queries Email</p>
+                    <p>custoom@IDFC.com</p>
+                    <p>© 2018 IDFC Bank. All Rights Reserved |  IDFC BANK</p>
+                </footer>
+    </body>
+</html>
