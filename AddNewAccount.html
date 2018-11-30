@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Registration</title>
 <style>
      h1{
             margin-left: 800px;
@@ -11,7 +12,7 @@
             position: absolute;
         }
         a{
-            padding: 20px;
+            padding: 10px;
             font-size: 24px;
         }
         .section
@@ -20,22 +21,17 @@
             position: absolute;
             top: 200px;
             height: 50px;
-            width: 1420px;
+            width: 1415px;
         }
-.section3
-{
-    background-color: turquoise;
-    width: 1420px;
-    height: 90px;
-    position: absolute;
-    top: 250px;
-}
-
-h2{
-    position: absolute;
-    top: 20px;
-    left: 500px;
-}
+        h2
+            {
+                position: absolute;
+                text-align: center;
+                font-size: 50px;
+                color: solid black;
+                left: 400px;
+                top: 250px;
+            }
 form{ 
     margin-top: 300px;
 
@@ -47,34 +43,44 @@ footer{
             background-color: tomato;
             height: 130px;
             width: 1420px;
-            margin-bottom: 10px;
+            margin-bottom: 1px;
             text-align: center;
+            top: 825px;
            
         }
         label
         {
             font-weight: bold;
         }
+        .one
+      {
+        position: absolute;
+            border-radius: 20px;
+            font-size: 20px;
+            top: 750px;
+            left: 600px;;
+        }
 </style>
     </head>
     </html>
-    <body style="background-image:url(bg.jpg)">
+    <body style="background-image:url(bg4.jpg)">
             <img src="Idfc.jpg">
             <h1>IDFC BANK</h1>
             <div class="section">
-                <b><a href="AddNewAccount.html">Add account</a></b>
                 <b><a href="searchAccount.html">search account</a></b>
                 <b><a href="viewaccount.html">view account</a></b>
                 <b><a href="ViewAllCustomers.html">view customers</a></b>
                 <b><a href="UpdateCustomerForm.html">Update customer Form</a></b>
+                <b><a href="WithdrawForm.html">Withdraw Form</a></b>
                 <b><a href="DepositForm.html">Deposit Form</a></b>
                 <b><a href="FundTransfer.html">Fund Transfer</a></b>
+                <b><a href="Signin.html">Sign In</a></b>
             </div>
-        <div class="section3">
+       
             <h2>
                     A few details and we will do the rest
             </h2>
-        </div>
+        
         <form style="width: 100%">
                 <center>
                 <fieldset style="width: 80%">
@@ -98,12 +104,8 @@ footer{
                             <option value="Current">Current</option>
                             <option value="Savings">Savings</option>
                           </select></p><br></td></tr> 
-                          <form action="">
-                         <tr>
-                             <p><td><label><input type="radio" name="Account" value="Salarised">Salarised</label></td></tr> 
-                             <tr>
-                                    <td><label><input type="radio" name="Account" value="Not Salarised">Not Salarised</label></td></tr></p> 
-                                </form>
+                          
+                                       <tr><th><input class="one" type="submit" value="Submit" style="text-align: center"></th></tr>
 
              </table>
              </fieldset>
